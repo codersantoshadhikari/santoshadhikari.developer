@@ -1,0 +1,98 @@
+
+## [0.4.2](https://github.com/pkgforge/soar/compare/soar-package-v0.4.1...soar-package-v0.4.2) - 2026-07-16
+
+### ⚙️ Miscellaneous Tasks
+
+- Updated the following local packages: soar-utils, soar-config - ([0000000](https://github.com/pkgforge/soar/commit/0000000))
+
+## [0.4.1](https://github.com/pkgforge/soar/compare/soar-package-v0.4.0...soar-package-v0.4.1) - 2026-06-25
+
+### ⚙️ Miscellaneous Tasks
+
+- Update Cargo.toml dependencies - ([0000000](https://github.com/pkgforge/soar/commit/0000000))
+
+## [0.4.0](https://github.com/pkgforge/soar/compare/soar-package-v0.3.3...soar-package-v0.4.0) - 2026-06-14
+
+### 🐛 Bug Fixes
+
+- *(integrate)* Don't clobber desktop Icon field when package ships no matching icon - ([caf1ba6](https://github.com/pkgforge/soar/commit/caf1ba6dd7df4cb227161dfa2530acc985e04dd3))
+
+## [0.3.3](https://github.com/pkgforge/soar/compare/soar-package-v0.3.2...soar-package-v0.3.3) - 2026-06-06
+
+### ⚙️ Miscellaneous Tasks
+
+- Updated the following local packages: soar-config - ([0000000](https://github.com/pkgforge/soar/commit/0000000))
+
+## [0.3.2](https://github.com/pkgforge/soar/compare/soar-package-v0.3.1...soar-package-v0.3.2) - 2026-06-04
+
+### 🐛 Bug Fixes
+
+- *(dl)* Verify download integrity ([#168](https://github.com/pkgforge/soar/pull/168)) - ([336f2dd](https://github.com/pkgforge/soar/commit/336f2dde6cb8d1c112f4f558129ed53bf0888d03))
+- *(integrate)* Don't treat package binary as desktop file - ([a7d8a4f](https://github.com/pkgforge/soar/commit/a7d8a4fd89a3c31d4b00cc9dc43acdeb13d293bd))
+
+## [0.3.1](https://github.com/pkgforge/soar/compare/soar-package-v0.3.0...soar-package-v0.3.1) - 2026-04-10
+
+### ⚙️ Miscellaneous Tasks
+
+- Update Cargo.toml dependencies - ([0000000](https://github.com/pkgforge/soar/commit/0000000))
+
+## [0.3.0](https://github.com/pkgforge/soar/compare/soar-package-v0.2.3...soar-package-v0.3.0) - 2026-02-24
+
+### 🐛 Bug Fixes
+
+- *(desktop)* Preserve flags/args in Exec/TryExec - ([465422d](https://github.com/pkgforge/soar/commit/465422ddef77b1d7d69015cb1bcfa5643d86845f))
+
+### 🚜 Refactor
+
+- *(system)* Add per-context system mode support - ([10544ac](https://github.com/pkgforge/soar/commit/10544ac8a2bd896152448f79650c6d98db0d960a))
+
+### 📚 Documentation
+
+- *(readme)* Update readme - ([4fc58a7](https://github.com/pkgforge/soar/commit/4fc58a774b4c968db8f4d69f7f809378573b4145))
+
+### ⚙️ Miscellaneous Tasks
+
+- *(manifest)* Remove deprecated authors field - ([0bf1231](https://github.com/pkgforge/soar/commit/0bf123139798f2efb1674c8a14eaaf4f4640dc2a))
+
+## [0.2.3](https://github.com/pkgforge/soar/compare/soar-package-v0.2.2...soar-package-v0.2.3) - 2026-02-04
+
+### ⛰️  Features
+
+- *(config)* Allow setting path for desktop files - ([50c0335](https://github.com/pkgforge/soar/commit/50c033592d5611f4a982c20c45a0242b4826e93d))
+
+## [0.2.2](https://github.com/pkgforge/soar/compare/soar-package-v0.2.1...soar-package-v0.2.2) - 2026-01-24
+
+### ⚙️ Miscellaneous Tasks
+
+- Updated the following local packages: soar-config - ([0000000](https://github.com/pkgforge/soar/commit/0000000))
+
+## [0.2.1](https://github.com/pkgforge/soar/compare/soar-package-v0.2.0...soar-package-v0.2.1) - 2026-01-17
+
+### ⚙️ Miscellaneous Tasks
+
+- Updated the following local packages: soar-config - ([0000000](https://github.com/pkgforge/soar/commit/0000000))
+
+## [0.2.0](https://github.com/pkgforge/soar/compare/soar-package-v0.1.1...soar-package-v0.2.0) - 2026-01-17
+
+### ⛰️  Features
+
+- *(apply)* Allow applying ghcr packages - ([06e2b73](https://github.com/pkgforge/soar/commit/06e2b73fce7f4189527b8868bb9adfe14d0600cc))
+- *(cli)* Add system-wide package management ([#141](https://github.com/pkgforge/soar/pull/141)) - ([f8d4f1c](https://github.com/pkgforge/soar/commit/f8d4f1c4e0e230427cd037355ba4a23da5b28a6b))
+- *(install)* Add entrypoint option and executable discovery fallbacks - ([b77cffd](https://github.com/pkgforge/soar/commit/b77cffdd6cbdfd66518c1613313d53e1c102a7a2))
+- *(packages)* Add github/gitlab as first-class package sources ([#142](https://github.com/pkgforge/soar/pull/142)) - ([2fc3c3b](https://github.com/pkgforge/soar/commit/2fc3c3b4f8e08dd9eac828dbf4f77128f186c91f))
+
+### 🚜 Refactor
+
+- *(error)* Don't override error messages - ([e44342f](https://github.com/pkgforge/soar/commit/e44342f3c23b9cdbe23df2739bcf04bde4138025))
+
+## [0.1.1](https://github.com/pkgforge/soar/compare/soar-package-v0.1.0...soar-package-v0.1.1) - 2025-12-28
+
+### ⛰️  Features
+
+- *(appimage)* Handle dwarfs appimage extraction - ([4781e9c](https://github.com/pkgforge/soar/commit/4781e9cb8d943cd8b1c4ad2723ef8b7f154f8476))
+
+## [0.1.0] - 2025-12-26
+
+### ⛰️  Features
+
+- *(crate)* Init soar-package crate ([#120](https://github.com/pkgforge/soar/pull/120)) - ([7915faf](https://github.com/pkgforge/soar/commit/7915faff8f12e35b6392324b9e4f1c697a760d2e))
